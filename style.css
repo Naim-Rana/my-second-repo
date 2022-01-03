@@ -3,3 +3,57 @@ body{
     background-color: azure;
     padding: 2px 6px 4px;
 }
+#box{
+    background-color: lightsteelblue;
+    margin: 0px;
+    max-width:100%;
+    height: 200px;
+}
+#box #nav #title{
+    background-color: yellow;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+#box #nav #list {
+    list-style: none;
+    margin: 20px 0 ;
+    
+}
+#box #nav #list li {
+    display: inline;
+    margin: 25px;
+    padding: 6px;
+    border: 3px solid ;
+    background-color: gray;
+    border-radius: 6px;
+}
+#box #nav #list li a{
+    color: white;
+    text-decoration:none;
+
+}
+#box #nav #list li a:hover{
+    font-size: 20px;
+    color: red;
+   
+}
+
+#section-box{
+    background-color: green;
+    width: 100%;
+    height: 300px;
+    margin: 60px 0px 2px 0px;
+}
+#section-box #two{
+    background-color: thistle;
+    height: 200px;
+    
+}
+#section-box #two section{
+    display: inline;
+}
+#section-box #two content1{
+    background-color: red;
+}
